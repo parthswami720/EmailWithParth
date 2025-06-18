@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding:0%;
+    /* color: ; */
+ 
+}
+.nav{
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    
+    
+   
+}
+.nav p{
+    padding-left: 2vw;
+    color: white;
+}
+.link{
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    /* margin-left: 73%; */
+    
+}
+.link1{
+    width:6vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.link1 a{
+    
+    text-decoration: none;
+    padding: 1vw;
+    transition: font-size 0.2;
+    color: white;
+    align-items: center;
+    
+}
+.link1>a:hover{
+    color: rgb(199, 157, 19);
+    font-size: larger;
+}
+main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+footer{
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+}
+.contener{
+    margin-left: 0.5vw;
+    margin-top: 2vh;
+    width: 98vw;
+    height: 30vh;
+    /* background-color: rgba(201, 223, 223, 0.651); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.459);
+}
+.emailbox input,h3{
+    margin-bottom: 2vh;
+
+}
+.emailbox input{
+    padding: 0.6vw;
+    border: 2px solid rgba(0, 0, 0, 0.158);
+    outline: none;
+}
+.emailbox btn>button{
+    padding: 2vw;
+}
+
+
+.btn {
+   width: 5vw;
+   height: 8vh;
+}
+.btn button{
+    width: 5vw;
+    height: 6vh;
+    cursor:grab;
+}
+@media only screen and (max-width: 600px){
+    .link1 a{
+        font-size:12px;
+
+
+    }
+    .link1{
+        margin: 2vw;
+        /* /* padding-right: 3px; * */
+    }
+    .link{
+        margin-right: 15vw;
+    }
+    .btn {
+        /* background-color: aqua; */
+        width: 59px;
+    }
+    .btn button {
+        width: 59px;
+    }
+   
+}
+@media only screen and (max-width:300px){
+    .link1 a{
+        font-size: 10px;
+    }
+}
